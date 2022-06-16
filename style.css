@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color:hsl(0, 100%, 74%) ;
+    font-size: 15px;
+}
+main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+@media screen and (max-width:375px)
+{
+    main{
+        display: block; 
+    
+    }
+    
+}
+ .reg-text {
+    width: 50%;
+    color: white;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+} 
+@media screen and (max-width:375px) 
+{
+    .reg-text {
+        width: 100%;
+        
+        /* margin: auto; */
+    }
+   
+    
+}
+
+.reg-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+    
+}
+@media screen and (max-width:375px)
+{
+    .reg-text h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+}
+.reg-forms div{
+    margin-bottom: 5px;
+
+}
+.reg-button-top {
+    height: 40px;
+    width: 40em;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 10px;
+    background: hsl(248, 32%, 49%) ;
+    color: whitesmoke; 
+    border: 0; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+@media screen and (max-width:375px)
+{
+    .reg-button-top {
+        height: 50px;
+        width: 20em;
+        
+    }
+    
+}
+.reg-button-top span{
+    font-weight: bolder;
+}
+.forms{
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+@media screen and (max-width:375px)
+{
+    .forms{
+        width: 18em;
+    }
+}
+.forms input{
+    height: 30px;
+    width: 30em;
+    margin: 10px ; 
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+@media screen and (max-width:375px)
+{
+    .forms input{
+        height: 40px;
+        width: 15em;
+        margin: 5px ; 
+        padding: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        
+    }
+}
+.reg-button-bottom{
+    height: 40px;
+    width: 30em;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 10px;
+    background: hsl(154, 59%, 51%) ;
+    color: white; 
+    border: 0;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+@media screen and (max-width:375px)
+{
+    .reg-button-bottom{
+        height: 50px;
+        width: 16em;
+        margin: 0px;
+    }
+}
+.reg-bottom-p{
+    font-size: 12px;
+    margin:20px ;
+    color: hsl(246, 25%, 77%) ;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+@media screen and (max-width:375px)
+{
+    .reg-bottom-p{
+        font-size: 12px;
+        margin:5px ;
+        margin-top: 10px;
+        
+    
+    }
+}
+.reg-bottom-p span{
+    color: red;
+}
